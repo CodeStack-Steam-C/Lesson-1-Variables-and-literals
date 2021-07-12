@@ -1,4 +1,5 @@
-let my_sprite = sprites.create(img`
+
+my_sprite = sprites.create(img("""
     . . . . . . b b b b . . . . . .
     . . . . . . b 4 4 4 b . . . . .
     . . . . . . b b 4 4 4 b . . . .
@@ -15,4 +16,4 @@ let my_sprite = sprites.create(img`
     b 5 5 5 5 d d 4 4 4 4 . . . . .
     4 d d d 4 4 4 . . . . . . . . .
     4 4 4 4 . . . . . . . . . . . .
-`)
+"""))
